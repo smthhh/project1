@@ -1,0 +1,281 @@
+.wrapper {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center {
+    /* margin-left: 177px; */
+    /* margin-right: 182px; */
+    margin: 0 auto;
+    max-width: 1243px;
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background-color: #E5E5E5;
+}
+
+.logo span {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 99%;
+    color: #101010;
+}
+
+.logo {
+    margin-top: 35px;
+    float: left;
+}
+
+.burger {
+    float: right;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+h1 {
+    clear: both;
+    padding-top: 240px;
+    padding-bottom: 156px;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 101px;
+    line-height: 99%;
+    color: #101010;
+    width: 912px;
+}
+
+/* container 2 */
+
+.container2 img {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* container 3 */
+
+.container3 .text-left hr {
+    height: 1px;
+    width: 34px;
+    background: #101010;
+    border: 0;
+    margin-top: 77px;
+    margin-bottom: 16px;
+}
+
+.container3 .text-left p {
+    font-family: "DM Sans";
+    font-size: 24px;
+    line-height: 154%;
+    color: #101010;
+}
+
+.container3 .text-left {
+    width: 296px;
+    float: left;
+}
+
+.container3 .text-right p {
+    font-family: "Playfair Display";
+    font-size: 40px;
+    line-height: 121%;
+    color: #101010;
+}
+
+.container3 .text-right {
+    float: right;
+    margin-top: 66px;
+    width: 820px;
+}
+
+.container3 .subtitle {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 154%;
+    color: #101010;
+    padding-top: 128px;
+    padding-bottom: 40px;
+    clear: both;
+}
+
+.container3 .description {
+    font-family: "DM Sans";
+    font-size: 24px;
+    line-height: 154%;
+    color: #101010;
+}
+
+/* container 4 */
+
+.container4 {
+    padding-top: calc(135px - 60px);
+    padding-bottom: 61px;
+}
+
+.container4 .card hr {
+    height: 1px;
+    width: 34px;
+    background: #101010;
+    border: 0;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+
+.container4 .card p {
+    font-family: "DM Sans";
+    font-size: 24px;
+    line-height: 154%;
+    color: #101010;
+    width: 296px;
+}
+
+.container4 .card {
+    margin-top: 54px;
+}
+
+.container4 .side_left {
+    float: left;
+}
+
+.container4 .side_right {
+    float: right;
+}
+
+.container4 .clearfix {
+    clear: both;
+}
+
+/* footer */
+footer {
+    background-color: #101010;
+    padding-top: 112px;
+    padding-bottom: 71px;
+}
+
+footer .footer-logo span {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 99%;
+    color: #f2f2f2;
+}
+
+footer .research-block p,
+footer .services-block p,
+footer .legal-block p {
+    font-family: "Playfair Display";
+    font-size: 38px;
+    line-height: 199%;
+    color: #f2f2f2;
+}
+
+footer .research-block ul li a,
+footer .services-block ul li a,
+footer .legal-block ul li a {
+    font-family: "DM Sans";
+    font-size: 21px;
+    line-height: 199%;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+footer .research-block ul,
+footer .services-block ul,
+footer .legal-block ul {
+    list-style-type: none;
+}
+
+footer .footer-logo,
+footer .research-block,
+footer .services-block {
+    float: left;
+}
+
+footer .legal-block {
+    float: right;
+}
+
+footer .research-block,
+footer .services-block,
+footer .legal-block {
+    margin-top: -21px;
+}
+
+footer .footer-logo {
+    margin-right: 277px;
+}
+
+footer .research-block {
+    margin-right: 88px;
+    padding-right: 12px;
+}
+
+footer .social-links {
+    clear: both;
+    padding-top: 174px;
+}
+
+footer .social-links .social-left {
+    float: left;
+}
+
+footer .social-links .social-right {
+    float: right;
+}
+
+footer .social-links .social-left a {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 99%;
+    color: #f2f2f2;
+    text-decoration: none;
+    margin-right: 52px;
+}
+
+footer .social-links .social-right a {
+    margin-left: 32px;
+}
+
+/* .container2,
+.container3,
+.container4,
+footer {
+    display: none;
+} */
+
+@media screen and (max-width: 1300px) {
+    .center {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    h1 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 38px;
+    }
+}
