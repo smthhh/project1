@@ -245,22 +245,83 @@ footer .social-links .social-right a {
     margin-left: 32px;
 }
 
-/* .container2,
-.container3,
-.container4,
-footer {
-    display: none;
-} */
-
 @media screen and (max-width: 1300px) {
     .center {
         width: 90%;
+    }
+
+    .container3 .text-left,
+    .container3 .text-right {
+        float: none;
+    }
+
+    footer .footer-logo {
+        float: none;
+        margin-bottom: 30px;
+    }
+
+    footer .services-block {
+        margin-right: 88px;
+        padding-right: 12px;
+    }
+
+    footer .legal-block {
+        float: none;
+    }
+
+    .container4 .card_img img {
+        width: 100%;
+    }
+
+    .container4 .card {
+        width: 49%;
+    }
+
+    .container4 .card p {
+        font-size: 15px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     h1 {
         width: 100%;
+    }
+
+    .container3 .text-left,
+    .container3 .text-right {
+        float: none;
+        width: 100%;
+    }
+
+    footer .social-links .social-left {
+        float: none;
+        text-align: center;
+    }
+
+    footer .social-links .social-right {
+        float: none;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    footer .social-links .social-left a:last-child {
+        margin-right: 0;
+    }
+
+    footer .social-links .social-right a:first-child {
+        margin-left: 0;
+    }
+
+    .container4 .card_img img {
+        width: 100%;
+    }
+
+    .container4 .card {
+        width: 49%;
+    }
+
+    .container4 .card p {
+        font-size: 15px;
     }
 }
 
@@ -270,6 +331,105 @@ footer {
         padding-bottom: 100px;
         font-size: 60px;
     }
+
+    footer .research-block,
+    footer .services-block,
+    footer .legal-block {
+        float: none;
+        margin-top: 0;
+    }
+
+    footer .footer-logo {
+        margin-bottom: 30px;
+    }
+
+    footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    footer .social-links {
+        padding-top: 40px;
+    }
+
+    .container4 {
+        padding-top: 0;
+    }
+
+    .container4 .card_img img {
+        width: 100%;
+    }
+
+    .container4 .card {
+        width: 100%;
+        float: left;
+    }
+
+    .container4 .card p {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .container2 img {
+        height: 600px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .container3 .text-left hr {
+        margin-top: 30px;
+    }
+
+    .container3 .text-right {
+        margin-top: 30px;
+    }
+
+    .container3 .text-right p {
+        font-size: 27px;
+    }
+
+    .container3 .subtitle {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .container3 .description {
+        margin-bottom: 30px;
+    }
+
+    footer .social-links .social-left,
+    footer .social-links .social-right {
+        text-align: left;
+    }
+
+    footer .social-links .social-left a,
+    footer .social-links .social-right a {
+        line-height: 60px;
+    }
+
+    footer .social-links .social-right a {
+        margin-right: 32px;
+        margin-left: 0;
+    }
+
+    .container4 {
+        padding-top: 0;
+    }
+
+    .container4 .card_img img {
+        width: 100%;
+    }
+
+    .container4 .card {
+        width: 100%;
+    }
+
+    .container4 .card p {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -277,5 +437,62 @@ footer {
         padding-top: 50px;
         padding-bottom: 50px;
         font-size: 38px;
+    }
+
+    .container4 {
+        padding-top: 0;
+    }
+
+    .container4 .card_img img {
+        width: 100%;
+    }
+
+    .container4 .card {
+        width: 100%;
+    }
+
+    .container4 .card p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .center {
+        width: 100%;
+    }
+
+    .container4 .center {
+        padding-top: 0;
+        
+    }
+
+    .container4 .side_left {
+        float: none;
+    }
+    
+    .container4 .side_right {
+        float: none;
+    }
+    
+    .container4 .card hr {
+        margin-left: 14px;
+    }
+
+    .container4 .card p {
+        width: 253px;
+        margin-left: 14px;
+    }
+
+    .container4 .card_img img {
+        width: 100%;
+    }
+
+    .container4 .card {
+        width: 99%;
+        padding: 2px;
+    }
+
+    .container4 .card p {
+        font-size: 10px;
     }
 }
